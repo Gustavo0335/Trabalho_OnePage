@@ -13,14 +13,16 @@
     background-position: center;
 }
 
+
 h1 {
-    color: white;
+    color: goldenrod;
     padding: 20px;
     justify-content: space-between;
     margin: 20px 0px 20px;
-    font-size: 65px;
+    font-size: 75px;
     position: absolute;
-    left: 0px;
+    right: 350px;
+    bottom: 200px;
     cursor: pointer;
 }
 
@@ -58,6 +60,25 @@ nav ul li a:hover {
 
 span {
     color: gold;
+}
+
+.conclusoes {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+
+.conclusoes h3 {
+    color: white;
+}
+
+.conclusoes-text {
+    width: 500px;
+}
+
+.conclusoes-text p {
+    color: goldenrod;
+    width: 100%;
 }
 
 .btn {
